@@ -1,5 +1,5 @@
 var exec = require('cordova/exec');
 
 exports.coolMethod = function (arg0, success, error) {
-    exec(success, error, 'App', 'coolMethod', [arg0]);
+    exec(success, error, 'ImageFolder', 'coolMethod', [arg0]);
 };
